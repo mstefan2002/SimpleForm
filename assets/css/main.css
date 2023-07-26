@@ -1,0 +1,30 @@
+.dark-body
+{
+    color: rgb(209, 205, 199);
+    background-color: rgb(24, 26, 27);
+    -webkit-tap-highlight-color: transparent;
+}
+.dark-body input
+{
+    background-color: rgb(31, 34, 35);
+    color: rgb(221, 218, 214);
+    margin-bottom: 15px;
+}
+.dark-body table
+{
+    --darkreader-bg--bs-table-bg: rgba(0, 0, 0, 0);
+    --darkreader-bg--bs-table-accent-bg: rgba(0, 0, 0, 0);
+    --darkreader-text--bs-table-striped-color: #d1cdc7;
+    --darkreader-bg--bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --darkreader-text--bs-table-active-color: #d1cdc7;
+    --darkreader-bg--bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --darkreader-text--bs-table-hover-color: #d1cdc7;
+    --darkreader-bg--bs-table-hover-bg: rgba(0, 0, 0, 0.07);
+    color: rgb(209, 205, 199);
+    border-color: rgb(56, 61, 63);
+}
+
+.dark-body img
+{
+    width: 50px;
+}
