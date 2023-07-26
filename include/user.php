@@ -33,7 +33,11 @@ class User
 		catch(mysqli_sql_exception $e)
 		{
 			if($e->getCode() == 1062)
+			{
+				if(!empty($imagePath))
+					unlink($imagePath);
 				Output::badRequest("emailExists");
+			}
 
 			Output::error("Statement error ".$e->getCode());
 		}
